@@ -17,16 +17,9 @@ include 'includes/auth/login.php';
 
 <body>
 
-    <!----------------------- Main Container -------------------------->
 
     <div class="container d-flex justify-content-center align-items-center min-vh-100">
-
-        <!----------------------- Login Container -------------------------->
-
         <div class="row border rounded-5 p-3 bg-white shadow box-area">
-
-            <!--------------------------- Left Box ----------------------------->
-
             <div class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box" style="background: #103cbe;">
                 <div class="featured-image mb-3">
                     <img src="assets/gallery/logo.jpeg" class="img-fluid" style="width: 250px;margin-top:1rem">
@@ -34,9 +27,6 @@ include 'includes/auth/login.php';
                 <p class="text-white fs-2" style="font-family: 'Courier New', Courier, monospace; font-weight: 600;">Hydroponics IoT</p>
                 <small class="text-white text-wrap text-center" style="width: 20rem;font-family: 'Courier New', Courier, monospace;">IoT Based Monitorinng & Control System for Hydroponics.</small>
             </div>
-
-            <!-------------------- ------ Right Box ---------------------------->
-
             <div class="col-md-6 right-box">
                 <div class="row align-items-center">
                     <div class="header-text mb-4">

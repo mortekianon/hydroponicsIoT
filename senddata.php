@@ -1,6 +1,5 @@
 <?php
-$conection = mysqli_connect("localhost", "root", "", "iotmonitoring");
-
+include 'config.php';
 
 if (!$conection) {
     die("Connection failed: " . mysqli_connect_error());

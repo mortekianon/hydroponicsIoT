@@ -1,5 +1,5 @@
 <?php
-$conection = mysqli_connect("localhost", "root", "", "iotmonitoring");
+include '../../config.php';
 $sql = mysqli_query($conection, "SELECT * FROM data_monitoring order by id desc");
 
 $data = mysqli_fetch_array($sql);
