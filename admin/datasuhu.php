@@ -57,12 +57,12 @@ if (!$result) {
             </div>
         </aside>
         <main>
-            <h1>Data Monitoring PH</h1>
+            <h1>Data Monitoring Suhu</h1>
             <table>
                 <thead>
                     <tr>
                         <th>Waktu</th>
-                        <th>Data PH</th>
+                        <th>Data Suhu</th>
                         <th>Keterangan</th>
                     </tr>
                 </thead>
